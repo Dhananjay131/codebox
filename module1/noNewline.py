@@ -2,6 +2,6 @@
 """x="Hello World"
 print(x,end="")"""
 
-x=input("Something: ")
-print ("The number entered is ",x)
+word =input("Something: ")
+print ("The number  entered is ",word)
 
