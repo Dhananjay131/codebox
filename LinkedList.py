@@ -64,6 +64,22 @@ class stack:
 			print curr.val
 			curr = curr.next
 
+	def find_min(self):
+		curr = self.head
+		minimum = curr.val
+		while(curr):
+			if minimum > curr.val:
+				minimum = curr.val
+				curr = curr.next
+
+			else:
+				curr = curr.next
+				continue
+
+		print minimum
+
+
+
 n = node(10)
 q = stack()
 #q = queue()
@@ -71,7 +87,13 @@ q.add(n)
 q.add(node(20))
 q.add(node(30))
 q.add(node(40))
+q.add(node(40))
+q.add(node(70))
+q.add(node(7))
+q.add(node(100))
 q.print_list()
-q.delete()
-q.print_list()
+#q.delete()
+#q.print_list()
+print("The min value in the stack is: ")
+q.find_min()
 
