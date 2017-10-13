@@ -1,5 +1,5 @@
 #!usr/bin/python3
-
+#function to find max of a subarray
 def find_maximum_subarray_bf(a):        #bf for brute force
     p1 = 0
     l = 0           # l for left
