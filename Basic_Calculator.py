@@ -30,6 +30,6 @@ class Solution:
                 number = 0
                 result *= stack.pop()    
                 result += stack.pop()           
-    
+     
         if(number != 0): result += sign * number
         return result
