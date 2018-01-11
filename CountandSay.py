@@ -22,3 +22,4 @@ class Solution:
                 count = 1
         res += str(count) + lastSeen
         return res
+#why running doo??
